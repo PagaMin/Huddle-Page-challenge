@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+$violet: hsl(257, 40%, 49%);
+$soft-magenta: hsl(300, 69%, 71%);
+$white: #fff;
+
+@import 'content-right' ;
+@import 'icons';
+@import 'mobile';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-color: $violet;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+main{
+    padding: 50px;
+    animation-name: entry;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+
+
+.logo{
+    margin-left: 4rem;
+    }
+
+
+@keyframes entry{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0%;
+    }
+
+    100%{
+        transform: translateY(auto);
+        opacity: 100%;
+    }
+}
+

@@ -1,0 +1,28 @@
+.right{
+    width: 32.5rem;
+    height: 18.125rem;
+    color: $white;
+}
+
+button{
+    width: 12.5rem;
+    height: 3.5rem;
+    border-radius: 1.688rem;
+    color: $soft-magenta;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 1.5rem 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+button:hover{
+    background-color: $soft-magenta;
+    color: $white;
+}
+
+p{
+    margin-top: 1rem;
+}
